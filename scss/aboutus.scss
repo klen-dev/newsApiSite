@@ -1,0 +1,42 @@
+main{
+    min-height: 80vh;
+}
+
+.about-container{
+    padding: 50px 0;
+}
+
+h4{
+    color: #592EA9;
+}
+h5{
+    color: rgba(128, 128, 128, 0.54);
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.Title{
+    font-weight: 700 !important;
+    padding-bottom: 20px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p{
+    color: rgba(128, 128, 128, 0.637);
+    font-size: 14px;
+}
+
+.about-container{
+    display: none;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    // display: none;
+}
