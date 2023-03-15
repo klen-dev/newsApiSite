@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #232536;
+}
+header .navbar-brand {
+  font-weight: 600;
+  color: white !important;
+}
+
+.collapse .nav-item .nav-link {
+  font-size: 12px !important;
+  color: white !important;
+}
+.collapse .login {
+  padding: 8px 24px !important;
+  border-radius: 0px !important;
+  background-color: white !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: #232536 !important;
+}
+
+main {
+  min-height: 90vh;
+}
+
+h1 {
+  font-weight: 800 !important;
+  text-align: center;
+  padding: 50px 0;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 25px;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: #232536;
+  color: white;
+  padding: 30px 0;
+}
+footer .footer-left {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-left p {
+  padding: 0;
+  font-size: 12px;
+  color: rgb(168, 164, 164);
+  margin-bottom: 3px !important;
+}
+footer .footer-right a {
+  color: grey;
+}/*# sourceMappingURL=login.css.map */

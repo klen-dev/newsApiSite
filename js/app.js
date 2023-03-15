@@ -5,7 +5,7 @@ const economyBtn = document.querySelector("#Economy")
 const technologyBtn = document.querySelector("#Technology")
 const popularBlog = document.querySelector("#Popular-blog")
 
-const newsApiKey = 'f369f436cf6244dba35d77b5386248c4'
+const newsApiKey = '43d9e280e2a74a47aeb06dae4aa5560c'
 let sortBy = 'All'
 
 

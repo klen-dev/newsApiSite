@@ -1,0 +1,100 @@
+header{
+    background-color: #232536;
+    .navbar-brand{
+        font-weight: 600;
+        color: white !important;
+
+    }
+}
+
+.collapse{
+    .nav-item{
+        .nav-link{
+            font-size: 12px !important;
+            color: white !important;
+        }
+    }
+    .login{
+        padding: 8px 24px !important;
+        border-radius: 0px !important;
+        background-color: white !important;
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        color: #232536 !important;
+    }
+}
+
+.blog{
+    border: none !important;
+    // display: flex;
+    // flex-direction: row;
+    &-left{
+        img{
+            max-width: 25rem !important;
+            width: 100%;
+            height: auto;
+        }
+    }
+    &-right{
+        h6{
+            color: #592EA9;
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 600;
+        }
+        h4{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        p{
+            color: rgba(128, 128, 128, 0.604);
+        }
+    }
+}
+
+.blog-pagination{
+    .active{
+        background-color: black !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////// footer ////////
+footer{
+    background-color: #232536;
+    color: white ;
+    padding: 30px 0;
+    .footer-left{
+        display: flex;
+        flex-direction: column;
+        p{
+            padding: 0;
+            font-size: 12px;
+            color: rgb(168, 164, 164);
+            margin-bottom: 3px !important;
+        }
+    }
+    .footer-right a{
+        color: grey;
+    }
+}
